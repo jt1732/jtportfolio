@@ -1,0 +1,44 @@
+.nav{
+    background-color: inherit;
+    color: #B2CCD6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: start;
+}
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    padding: .25rem;
+
+}
+
+.nav li.active {
+    background-color: #1C212B;
+    border-radius: 0.4rem;
+}
+
+.nav li:hover{
+    background-color: #383F4B;
+    border-radius: 0.4rem;
+}
+
+.siteName{
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
