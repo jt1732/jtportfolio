@@ -1,5 +1,5 @@
 .authorName {
-    font-size: 12vh;
+    font-size: 10vh;
     text-align: center;
     font-weight: bold;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -15,7 +15,7 @@
     font-size: 8vh; 
     font-weight: bold;
     text-align: center;
-    font-size: 2rem;
+    font-size: 4vh;
     color: inherit;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .mainContainer {
-    padding: 0 1rem 8rem 1rem;
+    padding: 0 1vh 8vw 1vh;
     flex-direction: column;
     display: flex;
     color: #B2CCD6;
@@ -41,33 +41,52 @@
 }
 
 .shimmer{
+    display: flex;
     position: absolute;
     align-self: center;
-    width: 10%;
-    margin-top: -10rem;
-    height: 25%;
     background: linear-gradient(-100deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     animation: shimmer 2s infinite linear;
-    filter: blur(3rem); 
-    border-radius: 3rem;
+    border-radius: 10rem;
+    filter: blur(5vw); 
+    width: 15%;
+    margin-top: -25vh;
+    height: 25vh;
+}
+
+@media screen and (max-width: 960px) {
+    .shimmer {
+        filter: blur(8vw); 
+        width: 25%;
+        margin-top: -34vh;
+        height: 33vh;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .shimmer {
+        filter: blur(10vw); 
+        width: 35%;
+        margin-top: -44vh;
+        height: 41vh;
+    }
 }
 
 @keyframes shimmer {
 	0% {
-        opacity: 0.01;
+        opacity: 0.0;
 		transform:translateX(-300%);
 	}
     10%{
-        opacity: 0.1;
+        opacity: 0.0;
     }
     20%{
-        opacity: 0.15;
+        opacity: 0.4;
     }
     80%{
-        opacity: 0.2;
+        opacity: 0.4;
     }
     90%{
-        opacity: 0.15;
+        opacity: 0.25;
     }
 	100% {
         opacity: 0.1;
@@ -76,9 +95,11 @@
 }
 
 .mainContainer a {
-    margin: 0 2rem 0 0;    
-    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
-    font-size: 1.2rem; 
+    margin: 0 2vw 0 0;   
+    align-self: center;
+    justify-content: center;
+    padding: 0.8vw 0.8vw 0.8vw 0.8vw;
+    font-size: 2vh; 
     font-weight: bold;
     color: #B2CCD6;
     text-decoration: none;

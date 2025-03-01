@@ -13,8 +13,10 @@ export default function Home() {
       </header>
 
       <main className={styles.mainContainer}>
+        <div className={styles.authorName}>
         <h1 className={styles.authorName}>Jacob Turnbull<br></br> Portfolio</h1>
         <div className={styles.shimmer}></div> 
+        </div>
         <p className={styles.subText}>BSci(CompSci)/BCom (Finance) Conjoint Student at the University of Auckland</p>
         <div>
           <Link href="" >About Me</Link>
