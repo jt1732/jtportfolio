@@ -4,10 +4,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
-    padding: 0 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    gap: 2vw;
+    padding: 0 5vw;
+    padding-top: 2vh;
+    padding-bottom: 10vh;
 }
 
 .nav ul {
@@ -15,7 +15,7 @@
     margin: 0;
     list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: 2vw;
     align-items: start;
 }
 .nav a {
@@ -23,8 +23,9 @@
     text-decoration: none;
     height: 100%;
     display: flex;
-    padding: .25rem;  
-    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
+    font-size: 2vh;
+    padding: .25vw;  
+    padding: 0.8vw 0.8vw 0.8vw 0.8vw;
 
 }
 
@@ -40,6 +41,6 @@
 
 .siteName{
     align-items: center;
-    font-size: 2rem;
+    font-size: 15vw;
     font-weight: bold;
 }

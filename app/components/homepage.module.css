@@ -1,5 +1,5 @@
 .authorName {
-    font-size: 7rem;
+    font-size: 12vh;
     text-align: center;
     font-weight: bold;
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -12,7 +12,7 @@
 }
 
 .subText {
-    font-size: 1.2rem; 
+    font-size: 8vh; 
     font-weight: bold;
     text-align: center;
     font-size: 2rem;
@@ -54,7 +54,7 @@
 
 @keyframes shimmer {
 	0% {
-        opacity: 0.001;
+        opacity: 0.01;
 		transform:translateX(-300%);
 	}
     10%{
@@ -70,7 +70,7 @@
         opacity: 0.15;
     }
 	100% {
-        opacity: 0.01;
+        opacity: 0.1;
 		transform:translateX(300%);
 	}
 }
