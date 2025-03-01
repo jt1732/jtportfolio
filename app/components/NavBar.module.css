@@ -23,16 +23,17 @@
     text-decoration: none;
     height: 100%;
     display: flex;
-    padding: .25rem;
+    padding: .25rem;  
+    padding: 0.8rem 0.8rem 0.8rem 0.8rem;
 
 }
 
-.nav li.active {
+.nav a.active {
     background-color: #1C212B;
     border-radius: 0.4rem;
 }
 
-.nav li:hover{
+.nav a:hover{
     background-color: #383F4B;
     border-radius: 0.4rem;
 }

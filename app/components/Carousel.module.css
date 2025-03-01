@@ -1,0 +1,30 @@
+.carousel{
+    margin-top: 8rem;
+    overflow: hidden;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inner{
+    white-space: pre-line;
+    height: 25rem;
+    transition: transform 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.carouselText{
+    font-weight: bold;
+    font-size: larger;
+}
+.carouselItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #171B24;
+    border-radius: 0.4rem;
+    flex-shrink: 0;
+}
