@@ -32,7 +32,7 @@ const Carousel = () => {
                 <div className={styles.indicators}>
                     {items.map((item,index)=>{
                         return (
-                            <button className={styles.buttonIndicator}>
+                            <button key={index} className={styles.buttonIndicator}>
                                 <span className="material-symbols-outlined">radio_button_unchecked</span>
                             </button>
                         )
