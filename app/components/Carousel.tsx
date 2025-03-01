@@ -17,7 +17,7 @@ const Carousel = () => {
         <div className={styles.carousel}>
             <div className={styles.inner} style={{ transform: `translate(-${activeIndex * 100}%)` }}>
             {items.map((item, index) => {
-            return <CarouselItem key={index} item={item} />;
+                return <CarouselItem key={index} item={item} />;
             })}
             </div>
         </div>

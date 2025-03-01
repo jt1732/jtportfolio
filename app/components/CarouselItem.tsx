@@ -1,7 +1,17 @@
 import React from 'react'
 import styles from './Carousel.module.css'
 
-const CarouselItem = ({ item }) => {
+interface Item {
+    title: string;
+    subTitle: string;
+    description: string;
+}
+
+interface CarouselItemProps {
+    item: Item;
+}
+
+const CarouselItem = ({ item}: CarouselItemProps) => {
     
   return (
     <div className={styles.carouselItem}> 
