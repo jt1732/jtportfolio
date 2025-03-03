@@ -19,8 +19,8 @@ export default function Home() {
         </div>
         <p className={styles.subText}>BSci(CompSci)/BCom (Finance) Conjoint Student at the University of Auckland</p>
         <div>
-          <Link href="" >About Me</Link>
-          <Link href="" >Contact Me</Link>
+          <Link href="./about" >About Me</Link>
+          <Link href="./contact" >Contact Me</Link>
         </div>
         <Carousel></Carousel>
       </main>
