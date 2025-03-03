@@ -23,7 +23,8 @@ const Carousel = () => {
             subTitle:"Test",
         }
     ]
-    const updateIndex = (newIndex) => {
+
+    const updateIndex = (newIndex: number) => {
         if (newIndex < 0){
             newIndex = 0;
         } else if (newIndex >= items.length){
